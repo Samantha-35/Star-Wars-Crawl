@@ -1,0 +1,35 @@
+
+body{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.container{
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    perspective: 450px;
+
+
+}
+h1{
+    justify-content: center;
+    align-items: center;
+}
+.scroll-txt{
+color: #ffc909;
+font-size: 1vw;
+line-height: 1.5rem;
+position: relative;
+text-align: justify;
+animation: scroll 90s forwards;
+font-weight: bold;
+margin:50% 0 0 0;
+}
+
+@keyframes scroll {
+    from {top: 0; transform: translateZ(0) rotateX(20deg)}
+    to { top: -7500px; transform: translateZ(-2500px) rotateX(21deg)}
+}
