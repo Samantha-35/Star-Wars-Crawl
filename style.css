@@ -23,7 +23,7 @@ body{
 
 .scroll-txt{
 color: #ffc909;
-font-size: 3vw;
+font-size: 1vw;
 line-height: 1.5rem;
 position: relative;
 text-align: justify;
@@ -38,7 +38,12 @@ font-family: Arial, Helvetica, sans-serif;
     from {top: 0; transform: translateZ(0) rotateX(20deg)}
     to { top: -7500px; transform: translateZ(-2500px) rotateX(21deg)}
 }
-
+.intro p{
+    color:#4bd5ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* .intro{
     position: absolute;
@@ -46,7 +51,7 @@ font-family: Arial, Helvetica, sans-serif;
     left: 30%;
     font-family: Arial;
     font-size: 60px;
-    color: #4bd5ee;
+    color: 
     margin: 0 auto;
     opacity: 0;
     animation-delay: 1s;
