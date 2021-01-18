@@ -27,6 +27,11 @@ body {
     animation: scroll 300s linear;
     color: yellow;
 }
+.intro p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @keyframes scroll {
     from {top: 100%;}
     to {top: -100%;}
